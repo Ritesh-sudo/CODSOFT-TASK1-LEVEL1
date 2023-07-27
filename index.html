@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>MY Landing Page</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+        <nav id="navbar" class="">
+            <div class="nav-wrapper">
+              <!-- Navbar Logo -->
+              <div class="logo">
+                <h5>Ritesh Edition</h5>
+              </div>
+          
+              <!-- Navbar Links -->
+              <ul id="menu">
+                <li><a href="#home">Home</a></li><!--
+             --><li><a href="#services">Services</a></li><!--
+             --><li><a href="#about">About</a></li><!--
+             --><li><a href="#contact">Contact</a></li>
+              </ul>
+            </div>
+          </nav>
+        </head>
+
+    <body>
+        <div class="container">
+            <img src="cars.jpeg" alt="cars-image" style="width:100%;">
+            <div class="centered">Interested In Cars</div>
+          </div>
+        <hr>
+          <div class="container2">
+            <img src="cars2.jpg" alt="cars-image" style="width:50%;">
+          </div>
+          <div class="sideone">
+            <h2>Services We Provide</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In finibus consequat diam, sed vestibulum mi condimentum et.
+                 Etiam malesuada mi sollicitudin diam condimentum faucibus. Nam finibus malesuada lorem et porttitor. Fusce nunc dolor, consectetur sit amet enim eget, malesuada ornare mi. Morbi et nibh laoreet,
+                 volutpat sem at, suscipit metus. Donec vel purus ac elit laoreet tristique. Cras porta, tortor in mollis fringilla,  mauris eros congue neque, vitae luctus tellus neque quis orci. Ut in nisi dui. Nam id eros ante.</p>
+          </div>
+          <hr>
+                <img src="finalimg.jpg" alt="bugatti carimg" class="last">
+                <div class="lastone">
+                    <h3><i>ARE YOU READY FOR PURE MODIFICATION?</i></h3>
+                </div>
+                <h4>WELCOME ABOARD THE XYZ MODIFICATIONS</h4>
+<hr>
+                <div class="Conclusion">
+                    <h6>© 2023 XYZ AUTOMOBILES RITESH EDITION.</h6>
+                </div>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Victor+Mono:ital,wght@1,700&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Victor+Mono:wght@100&display=swap');
+            
+            * {
+                    /*background-color: black;*/
+                    border: 0;
+                    box-sizing: border-box;
+                    margin: 0;
+                    padding: 0;
+                    }
+                    
+                    body {
+                        background-color: black;
+                    font-family: Lato, Helvetica, Arial, sans-serif;
+                    }
+
+                    a {
+                    color: inherit;
+                    font-family: inherit;
+                    font-size: inherit;
+                    text-decoration: none;
+                    }
+
+                    /*======================================================
+                                            Navbar
+                    ======================================================*/
+                    #navbar {
+                    color: #f5f5f7;
+                    position: fixed;
+                    top: 0;
+                    height: 60px;
+                    line-height: 60px;
+                    width: 100vw;
+                    z-index: 10;
+                    }
+
+                    .nav-wrapper {
+                    margin: auto;
+                    text-align: center;
+                    width: 70%;
+                    } @media(max-width: 768px) {
+                        .nav-wrapper {
+                        width: 90%;
+                        }
+                    } @media(max-width: 638px) {
+                        .nav-wrapper {
+                            width: 100%;
+                        }
+                        } 
+
+
+                    .logo {
+                    font-family: 'Sacramento', cursive;
+                    float: left;
+                    margin-left: 28px;
+                    font-size: 2em;
+                    } @media(max-width: 768px) {
+                    }
+
+                    #navbar ul {
+                    display: inline-block;
+                    float: right;
+                    list-style: none;
+                    margin-top: -2px;
+                    text-align: right;
+                    transition: transform 0.5s ease-out;
+                    } @media(max-width: 640px) {
+                        #navbar ul {
+                        display: none;
+                        }
+                    } @media(orientation: landscape) {
+                        #navbar ul {
+                            display: inline-block;
+                        }
+                        }
+
+                    #navbar li {
+                    display: inline-block;
+                    }
+
+                    #navbar li a {
+                    color:  #f5f5f7;
+                    display: block;
+                    font-size: 0.7em;
+                    height: 50px;
+                    letter-spacing: 1px;
+                    margin: 0 20px;
+                    padding: 0 4px;
+                    position: relative;
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    transition: all 0.5s ease;
+                    -webkit-transition: all 0.5s ease;
+                    }
+
+                    #navbar li a:hover {
+                    /* border-bottom: 1px solid rgb(28, 121, 184); */
+                    color: rgb(205, 55, 25);
+                    transition: all 1s ease;
+                    -webkit-transition: all 1s ease;
+                    }
+
+                    /* Animated Bottom Line */
+                    #navbar li a:before, #navbar li a:after {
+                    content: '';
+                    position: absolute;
+                    width: 0%;
+                    height: 1px;
+                    bottom: -1px;
+                    background: rgb(205, 55, 25);
+                    }
+
+                    #navbar li a:before {
+                    left: 0;
+                    transition: 0.5s;
+                    }
+
+                    #navbar li a:after {
+                    background: rgb(205, 55, 25);
+                    right: 0;
+                    /* transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1); */
+                    }
+
+                    #navbar li a:hover:before {
+                    background: rgb(205, 55, 25);
+                    width: 100%;
+                    transition: width 0.5s cubic-bezier((0.22, 0.61, 0.36, 1));
+                    }
+
+                    #navbar li a:hover:after {
+                    background: transparent;
+                    width: 100%;
+                    /* transition: 0s; */
+                    }
+
+                    /*======================================================
+                                            Home
+                    ======================================================*/
+                    .container {
+                    background-color: black;
+                    font-family: 'Sacramento', cursive;
+                    font-size: 80px;
+                    position: relative;
+                    text-align: center;
+                    color: white;
+                    }
+                    /* Centered text */
+                    .centered {
+                    position: absolute;
+                    top: 20%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    }
+
+                    /*======================================================
+                                            Services.
+                    ======================================================*/
+                    .container2{
+                    float: right;
+                    background-color: black;
+                    padding-left: 5%;
+                    color: white;
+                    }
+                    h2{
+                        font-family: 'Sacramento', cursive;
+                        padding-left: 16%;
+                        font-size: 2.5em;
+                        padding-bottom: 10%;
+                        color: #f5f5f7;
+                    }
+
+                    p{
+                        color: #f5f5f7;
+                        font-family: 'Poppins',sans-serif;
+                        padding-left: 5%;
+                        padding-bottom: 20%;
+                        text-align: center;
+                    }
+                    .sideone{
+                        background-color: black;
+                    }
+
+                    hr{
+                    margin-top: 5%;
+                    margin-bottom: 5%;
+                    margin-left: 20%;
+                    margin-right: 20%;
+                    border: 10px solid #181D31;
+                    border-radius: 5px;
+                    }
+                    /*======================================================
+                                            Conclusion
+                    ======================================================*/
+                    .last{
+                        display: block;
+                        margin-left: auto;
+                        margin-right: auto;
+                        width: 90%;
+                    }
+                    .lastone{
+                        padding-top: 3%;
+                        text-align: center;
+                        color: #f5f5f7;
+                        font-family: 'Victor Mono', monospace;
+                        font-size: 2em;
+                    }
+                    h4{
+                        font-family: 'Victor Mono', monospace;
+                        padding-top: 1%;
+                        text-align: center;
+                        color: #f5f5f7;
+                        font-size: 1.2em;
+                    }
+                    .Conclusion{
+                        font-family: arial,sans-serif;
+                        text-align:center;
+                        padding-top: 2%;
+                        padding-bottom: 2%;
+                        background-color: #181D31;
+                        color: #a2a2a2;
+                    }
+
+
+        </style>
+    </body>
+</html>
